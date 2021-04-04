@@ -2,8 +2,7 @@
 ## Backend Coding Exercise
 
 ## Overview
-This exercise serves as a demonstration of how you solve problems using idiomatic Go.
-Your solution will be used to facilitate a conversation during technical interviews.
+This exercise serves as a demonstration of how you solve problems using idiomatic Go. Your solution will be used to facilitate a conversation during technical interviews.
 
 ## Rules
 There are a few guidelines to follow while completing this exercise:
@@ -11,7 +10,7 @@ There are a few guidelines to follow while completing this exercise:
 * __24-hour Time Limit:__ This should be a relatively short but fun exercise to show of your knowledge about specific technologies and software engineering principles.  Unless otherwise arranged, make handoff to Strings within 24 hours,
 * __Use Generally Available Tools:__ The team evaluates new releases of tools and technologies as they become available, however for this exercise, please only use the latest version of tools and technologies that are considered Generally Available,
 * __Open Documentation, Open Internet:__ Engineers spend a non-trivial amount of time sourcing information online; feel free to use online resources and be able to demonstrate why you selected one approach to solving a problem over another,
-* __Deliver a Complete Project:__ The solution is delivered via a pull request, feel free to fork, or branch the shared repository. Test cases, dependencies, and any supporting documentation required to build the project should be standardized in your project resources -- We want to be able to run your solution on our machines.
+* __Deliver a Complete Project:__ The solution is delivered via a pull request. [Fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) the repository into your own, create the code, test cases, and any supporting documentation required to build the project should be standardized in your project resources -- We want to be able to run your solution on our machines.
 
 ## Technical Requirements
 All software projects require careful balance of both technical requirements along with functional requirements.  Your solution must comply with the following technical objectives:
