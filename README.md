@@ -25,7 +25,7 @@ We are looking for a **clean**, **well-factored**, idiomatic codebase that has a
 
 ## Functional Requirements
 ### Part 1
-We would like a function that translates integers into strings that are [English numerals](https://en.wikipedia.org/wiki/English_numerals)   
+We would like a function that translates integers into strings that are [English numerals](https://en.wikipedia.org/wiki/English_numerals).   
 For example, you can envision a function accepting an int and returning a string such that:
 | Input | Output |
 | ---: | ------ |
