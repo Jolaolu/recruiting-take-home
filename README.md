@@ -1,4 +1,4 @@
-# String's Engineering
+# Strings Engineering
 ## Backend Coding Exercise
 
 ## Overview
