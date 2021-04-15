@@ -15,8 +15,8 @@ There are a few guidelines to follow while completing this exercise:
 
 ## Technical Requirements
 All software projects require careful balance of both technical requirements along with functional requirements.  Your solution must comply with the following technical objectives:
-* Implement your solution using a current released version of Vue and Typescript,
-* Must include unit tests to verify your components and include these tests in your solution,
+* Implement your solution using a current released version of Vue and Typescript or ECMAScript,
+* Must include unit tests to verify your code and include these tests in your solution,
 * There is no need to provide any form of data persistence, or API.
 
 We are looking for a **clean**, **well-factored**, idiomatic codebase that has accompanying unit tests, and a thoughtful design consistent with provided assets.
