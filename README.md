@@ -2,7 +2,7 @@
 ## Vue Front-End Coding Exercise
 
 ## Overview
-This exercise serves as a demonstration of how you solve problems using idiomatic Vue.js and Typescript. Your solution will be used to facilitate a conversation on a follow-up technical interview.
+This exercise serves as a demonstration of how you solve problems using idiomatic Vue.js and Typescript or ECMAScript. Your solution will be used to facilitate a conversation on a follow-up technical interview.
 
 ## Rules
 There are a few guidelines to follow while completing this exercise:
