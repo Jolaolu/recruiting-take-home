@@ -59,16 +59,6 @@ export default {
       type: Number,
       required: false
     },
-    // minimumNumber: {
-    //   type: Number,
-    //   default: 0,
-    //   required: false
-    // },
-    // maximumNumber: {
-    //   type: Number,
-    //   default: 999999999,
-    //   required: false
-    // },
     readOnly: {
       type: Boolean,
       required: false

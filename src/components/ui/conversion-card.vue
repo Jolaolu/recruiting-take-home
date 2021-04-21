@@ -43,7 +43,6 @@ export default {
   },
   methods: {
     convertNumber: function () {
-      console.log(convertToWord(this.inputValue))
       this.convertedValue = convertToWord(this.inputValue)
     }
   }
