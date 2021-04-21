@@ -28,6 +28,7 @@
   </article>
 </template>
 <script>
+import convertToWord from '@/utils/convert'
 export default {
   name: 'ConversionCard',
   components: {
@@ -42,8 +43,8 @@ export default {
   },
   methods: {
     convertNumber: function () {
-      // console.log(numToWords(this.inputValue))
-      // this.convertedValue = numToWords(this.inputValue)
+      console.log(convertToWord(this.inputValue))
+      this.convertedValue = convertToWord(this.inputValue)
     }
   }
 }
