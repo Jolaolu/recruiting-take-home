@@ -1,57 +1,64 @@
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.2px;
+}
 
-h1{
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 37px;
-    letter-spacing: -0.2px;
-}
 p {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.2px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
 }
+
 html {
   height: 100%;
   overflow: hidden;
 }
+
 body {
   background: $background-color;
   height: 100%;
   overflow: auto;
 }
+
 body {
-    font-family: $primary-font;
-    -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
-    overscroll-behavior-y: none;
-    background: $background-color;
-    overflow-x: hidden;
-    color: $primary-color;
-    transition: background 0.3s ease-out;
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+  background: $background-color;
+  overflow-x: hidden;
+  color: $primary-color;
+  transition: background 0.3s ease-out;
 }
+
 .hidden {
   display: none;
 }
+
 button {
-    background-color: $primary-color;
-    cursor: pointer;
-    &:hover {
-        opacity: 0.88;
-    }
-    &:disabled{
-        cursor: not-allowed;
-        background-color: $grey;
-    }
+  background-color: $primary-color;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.88;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $grey;
+  }
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-	* {
-		animation-duration: 0.01ms !important;
-		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
-		scroll-behavior: auto !important;
-		transition-timing-function: linear !important;
-	}
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-timing-function: linear !important;
+  }
 }
