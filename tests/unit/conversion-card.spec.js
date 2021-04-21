@@ -5,13 +5,19 @@ describe('conversion-card.vue', () => {
   const wrapper = mount(ConversionCard)
   it('button disabled without correct input', () => {
     wrapper.find('.input__field').setValue('')
-    const button = wrapper.find('button')
-    expect(button.disabled).toEqual(true)
+    const button = wrapper.find('.btn')
+    const isDisabled = button.element.disabled === true
+    expect(isDisabled).toBe(true)
   })
-  it('converts number to words', () => {
-    wrapper.find('.input__field').setValue(200)
-    wrapper.find('form').trigger('submit.prevent')
-    expect(wrapper.find('.card__result-data').text())
-      .toBe('Two hundred')
+  it('button enabled with correct input', async () => {
+    await wrapper.find('.input__field').setValue(10)
+    const button = await wrapper.find('.btn')
+    const isDisabled = button.element.disabled === true
+    expect(isDisabled).toBe(false)
+  })
+  it('converts number to words', async () => {
+    await wrapper.find('.input__field').setValue(200)
+    await wrapper.find('form').trigger('submit.prevent')
+    expect(wrapper.find('.input__field-alternate').element.value).toBe('Two hundred')
   })
 })
