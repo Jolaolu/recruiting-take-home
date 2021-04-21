@@ -25,7 +25,6 @@ export default {
  .converter{
     width: 100%;
     height: 100vh;
-    /* background: radial-gradient(48.17% 48.79% at 50.73% 49.99%, #C6D5F0 0%, rgba(214, 226, 247, 0) 100%); */
     display: flex;
     place-items: center;
     //older browser
